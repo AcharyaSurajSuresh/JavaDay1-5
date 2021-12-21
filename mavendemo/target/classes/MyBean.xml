@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+   
+   <bean id="s2"  class="demoOfMaven.mavendemo.Employee">
+   <property name="id"  value="2"></property>
+   <property name="salary"  value="40000"></property>
+   <property name="address"  value="abc"></property>
+   <property name="name"  value="Suraj"></property>
+   </bean>
+   
+   <bean id="s4"  class="demoOfMaven.mavendemo.Books">
+   <constructor-arg name="id"  value="2" ></constructor-arg>
+   <constructor-arg name="publisher"  value="abc"></constructor-arg>
+   <constructor-arg name="price"  value="1000" ></constructor-arg>
+   </bean>
+   
+   <bean id="s1"  class="demoOfMaven.mavendemo.Student">
+   <constructor-arg name="name"  value="Suraj"></constructor-arg>
+   <constructor-arg name="rollno"  value="1"></constructor-arg>
+   </bean>
+
+</beans>
+
