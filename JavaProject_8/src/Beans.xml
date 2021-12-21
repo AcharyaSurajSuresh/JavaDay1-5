@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+   
+
+   <bean id="s1"  class="com.pack.Student1">
+   <property name="Stuname"  value="Suraj"></property>
+   <property name="rollno"  value="1"></property>
+   </bean>
+   
+   <bean id="s2"  class="com.pack.Employee1">
+   <property name="id"  value="2"></property>
+   <property name="salary"  value="40000"></property>
+   <property name="address"  value="abc"></property>
+   <property name="name"  value="Suraj"></property>
+   </bean>
+   
+   <bean id="s3"  class="com.pack.Books">
+   <property name="id"  value="2"></property>
+   <property name="Publisher"  value="abc"></property>
+   <property name="Price"  value="1000"></property>
+   </bean>
+</beans>
+
